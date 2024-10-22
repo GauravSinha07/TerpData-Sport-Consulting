@@ -7,7 +7,10 @@ Mission Statement:
 Mission Objective:
 
 ●	Identify Winning percentages in last 21 years
+
 ●	Determine the opponents against whom the team has the highest and lowest winning rates.
-●	Show percentages of Winning in each location
+
+●	Show percentages of Winning in each location.
+
 ●	Calculate the goals scored and conceded each season and over the 21-year period.
 
