@@ -14,3 +14,9 @@ Mission Objective:
 
 ●	Calculate the goals scored and conceded each season and over the 21-year period.
 
+Team
+Gaurav Sinha
+Hongtao Wu
+Vatsal Doshi Gaurav Sinha Dhanush Sukruth
+
+
