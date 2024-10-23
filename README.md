@@ -27,7 +27,9 @@ Dhanush Sukruth
 **Introduction**
 
 Analyzed 21 years of soccer game data for the Terrapins Men’s Soccer Team, identifying key performance trends across opponents and locations, leading to the discovery of a 15% higher win rate in certain away locations.
+
 Performed data cleaning, resolving inconsistencies in team names, locations, and game results, which improved data accuracy by 20%.
+
 Designed database schema consisting of four core entities (Team, Location, Match, and Result) to handle over 1,00,000 game results, ensuring optimal database structure for querying.
 
 
