@@ -32,4 +32,32 @@ Performed data cleaning, resolving inconsistencies in team names, locations, and
 
 Designed database schema consisting of four core entities (Team, Location, Match, and Result) to handle over 1,00,000 game results, ensuring optimal database structure for querying.
 
+**Ideas:**
+
+Our team believes that the more data we can collect, the more precise and useful insights can be generated. Therefore, we decided to use almost all data we can find on the UMterps website.
+
+**Data gathering:**
+
+Using python to extract data from Text version of schedule from Umterps.com, then convert raw data into Excel File.
+
+Data Cleaning:
+
+●	First thing needed to be done is to separate the home team and away team. The current format is only valid from the UMD soccer team perspective. In order to better understand and storage the data. Two new columns need to be created: Home team and Away team.
+
+●	Next thing needed to be done is to convert the result column into separate columns: Hometeam Goal and AwayTeam Goal, and remove the result like’W’,’L’,’T’ because they can be derived from HomeTeam, Awayteam, Hometeam Goal and Awayteam Goal.
+
+●	Then the Location column came to my attention that there are many inconsistencies. Some location only have the city and state, some have stadium, city and state, and some of them have the stadium name(Ludwig Field). So I decided to keep on City and State and put them into two columns. 
+
+●	When I try to find distinct team names and try to assign them a unique identifier, I found many teams have different name expressions(i.e:OSU and Ohio state). So I need to rename them to make the Team name column consistent.
+
+●	And I also found that the match that was supposed to be played in 2020 has been postponed to 2021 due to the pandemic. So I created an extra column ‘Season’ to better keep track of records.
+
+●	Data example after initial cleaning
+ 
+
+**Database Design:**
+
+
+There will be four stong entities: team, location, match and tournament, and one composite entity: result. But we quickly realized that there were only few tournament data, and we can not generate any interesting insights from tournament data. We decided to drop that entity. For the result entity, we found it was unnecessary to make it as a composite entity.
+  
 
