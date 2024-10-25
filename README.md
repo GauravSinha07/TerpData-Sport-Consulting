@@ -1,4 +1,4 @@
-**TerpData Sport consulting**
+<h1>TerpData Sport consulting</h1>
 <hr>
 
 **Mission Statement**:
