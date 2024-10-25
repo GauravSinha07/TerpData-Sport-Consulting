@@ -42,18 +42,15 @@ Using python to extract data from Text version of schedule from Umterps.com, the
 
 <h2>Data Cleaning</h2>
 
-●	First thing needed to be done is to separate the home team and away team. The current format is only valid from the UMD soccer team perspective. In order to better understand and storage the data. Two new columns need to be created: Home team and Away team.
+- First thing needed to be done is to separate the home team and away team. The current format is only valid from the UMD soccer team perspective. In order to better understand and storage the data. Two new columns need to be created: Home team and Away team.
 
-●	Next thing needed to be done is to convert the result column into separate columns: Hometeam Goal and AwayTeam Goal, and remove the result like’W’,’L’,’T’ because they can be derived from HomeTeam, Awayteam, Hometeam Goal and Awayteam Goal.
+- Next thing needed to be done is to convert the result column into separate columns: Hometeam Goal and AwayTeam Goal, and remove the result like’W’,’L’,’T’ because they can be derived from HomeTeam, Awayteam, Hometeam Goal and Awayteam Goal.
 
-●	Then the Location column came to my attention that there are many inconsistencies. Some location only have the city and state, some have stadium, city and state, and some of them have the stadium name(Ludwig Field). So I decided to keep on City and State and put them into two columns. 
+- Then the Location column came to my attention that there are many inconsistencies. Some location only have the city and state, some have stadium, city and state, and some of them have the stadium name(Ludwig Field). So I decided to keep on City and State and put them into two columns. 
 
-●	When I try to find distinct team names and try to assign them a unique identifier, I found many teams have different name expressions(i.e:OSU and Ohio state). So I need to rename them to make the Team name column consistent.
+- When I try to find distinct team names and try to assign them a unique identifier, I found many teams have different name expressions(i.e:OSU and Ohio state). So I need to rename them to make the Team name column consistent.
 
-●	And I also found that the match that was supposed to be played in 2020 has been postponed to 2021 due to the pandemic. So I created an extra column ‘Season’ to better keep track of records.
-
-●	Data example after initial cleaning
- 
+- And I also found that the match that was supposed to be played in 2020 has been postponed to 2021 due to the pandemic. So I created an extra column ‘Season’ to better keep track of records.
 
 <h2>Database Design</h2>
 
