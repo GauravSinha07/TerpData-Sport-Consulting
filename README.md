@@ -1,10 +1,10 @@
 <h1>TerpData Sport consulting</h1>
 
-**Mission Statement**:
+<h2>Mission Statement<h2>
 
 To conduct an in-depth analysis of 21(1999-2021 was skipped due to many missing data) years of game data for the Terrapins Men’s Soccer Team, finding key insights into performance trends across various opponents and locations. By examining historical outcomes, we aim to provide valuable strategic perspectives for future games.
 
-**Mission Objective**:
+<h2>Mission Objective</h2>
 
 Identify Winning percentages in last 21 years
 
@@ -14,7 +14,7 @@ Show percentages of Winning in each location.
 
 Calculate the goals scored and conceded each season and over the 21-year period.
 
-**Team**
+<h2>Team</h2>
 
 1. Gaurav Sinha
 
@@ -24,7 +24,7 @@ Calculate the goals scored and conceded each season and over the 21-year period.
 
 4. Dhanush Sukruth
 
-**Introduction**
+<h2>Introduction</h2>
 
 Analyzed 21 years of soccer game data for the Terrapins Men’s Soccer Team, identifying key performance trends across opponents and locations, leading to the discovery of a 15% higher win rate in certain away locations.
 
@@ -32,15 +32,15 @@ Performed data cleaning, resolving inconsistencies in team names, locations, and
 
 Designed database schema consisting of four core entities (Team, Location, Match, and Result) to handle over 1,00,000 game results, ensuring optimal database structure for querying.
 
-**Ideas:**
+<h2>Ideas</h2>
 
 Our team believes that the more data we can collect, the more precise and useful insights can be generated. Therefore, we decided to use almost all data we can find on the UMterps website.
 
-**Data gathering:**
+<h2>Data gathering</h2>
 
 Using python to extract data from Text version of schedule from Umterps.com, then convert raw data into Excel File.
 
-Data Cleaning:
+<h2>Data Cleaning</h2>
 
 ●	First thing needed to be done is to separate the home team and away team. The current format is only valid from the UMD soccer team perspective. In order to better understand and storage the data. Two new columns need to be created: Home team and Away team.
 
@@ -55,7 +55,7 @@ Data Cleaning:
 ●	Data example after initial cleaning
  
 
-**Database Design:**
+<h2>Database Design</h2>
 
 
 There will be four stong entities: team, location, match and tournament, and one composite entity: result. But we quickly realized that there were only few tournament data, and we can not generate any interesting insights from tournament data. We decided to drop that entity. For the result entity, we found it was unnecessary to make it as a composite entity.
