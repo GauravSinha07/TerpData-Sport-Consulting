@@ -16,13 +16,13 @@ Calculate the goals scored and conceded each season and over the 21-year period.
 
 **Team**
 
--Gaurav Sinha
+1. Gaurav Sinha
 
--Hongtao Wu
+2. Hongtao Wu
 
--Vatsal Doshi
+3. Vatsal Doshi
 
--Dhanush Sukruth
+4. Dhanush Sukruth
 
 **Introduction**
 
