@@ -6,7 +6,7 @@ To conduct an in-depth analysis of 21(1999-2021 was skipped due to many missing 
 
 <h2>Mission Objective</h2>
 
-Identify Winning percentages in last 21 years
+Identify Winning percentages in last 21 years 
 
 Determine the opponents against whom the team has the highest and lowest winning rates.
 
