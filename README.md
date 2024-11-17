@@ -1,4 +1,4 @@
-<h1>TerpData Sport consulting</h1>
+<h1>TerpData Sport consulting</h1> 
 
 <h2>Mission Statement</h2>
 
